@@ -11,7 +11,7 @@ public class MortgageCalculator {
     NumberFormat currency = NumberFormat.getCurrencyInstance();    
     Scanner scanner = new Scanner(System.in);
 
-    System.out.print("Principal: ");
+    System.out.println("Principal: ");
     principal = scanner.nextInt();
 
     System.out.print("Annutal Rate: ");
